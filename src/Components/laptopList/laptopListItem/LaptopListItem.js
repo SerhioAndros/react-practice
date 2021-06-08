@@ -8,11 +8,6 @@ const LaptopListItem = ({ laptop }) => {
         {laptop.isSale ? "Действует акционная цена" : "В акции не участвует"}
       </p>
       <p>{laptop.description}</p>
-      {/* <ul>
-        {laptop.colors.map((color) => (
-          <li key={color}>{color}</li>
-        ))}
-      </ul> */}
       <p>
         Цена: <span>{laptop.price}</span>
       </p>
